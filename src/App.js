@@ -33,10 +33,10 @@ function App() {
     axios.put(`http://localhost:5000/api/notes/${editNote._id}`, newNote)
     .then((response)=>{
       const updatedNotes = notes.map((note)=>
-        note._id =editNote._id? response.data : note);
+        note._id ===editNote._id? response.data : note);
       setNotes(updatedNotes);
       setNewNote({title:'', content:''});
-      setEditNote(null)
+      setEditNote(null);
     })
     .catch(error =>console.error('Error Updating note!',error));
  
