@@ -1,0 +1,111 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 57vw;
+  height: 100vh;
+  margin:5px;
+  padding: 20px;
+  background-color: #4e6ae7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #151414;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.button1,
+.button2 {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button1 {
+  width: 100%;
+}
+
+.button2 {
+  width: 20%;
+
+}
+
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+}
+
+button {
+  background-color: #e04264;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+li strong {
+  font-size: 18px;
+  color: #333;
+}
+
+li p {
+  font-size: 16px;
+  color: #555;
+}
+.note-container {
+  position: absolute;
+  width: 37vw;
+  height: 100vh;
+  margin: 5px;
+  padding: 20px;
+  background-color: #4e6ae7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  left: 60%;
+  top: 0px;
+}
+.note-container h1{
+  text-align: center;
+  font-size: 20px;
+}
